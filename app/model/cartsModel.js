@@ -15,4 +15,4 @@ const DataSchema = new mongoose.Schema(
 );
 
 const CartModel = mongoose.model("carts", DataSchema);
-module.exports = CartModel;
+export default CartModel;

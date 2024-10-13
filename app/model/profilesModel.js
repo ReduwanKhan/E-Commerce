@@ -26,4 +26,4 @@ const DataSchema = new mongoose.Schema(
 );
 
 const ProfileModel = mongoose.model("profiles", DataSchema);
-module.exports = ProfileModel;
+export default ProfileModel;

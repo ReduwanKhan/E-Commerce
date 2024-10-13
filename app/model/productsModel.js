@@ -21,4 +21,4 @@ const DataSchema = new mongoose.Schema(
 );
 
 const ProductModel = mongoose.model("products", DataSchema);
-module.exports = ProductModel;
+export default ProductModel;

@@ -1,10 +1,6 @@
+import { CategoryListService } from "../service/ProductServices.js";
+
 export const CategoryList = async (req, res) => {
-  try {
-    return res.json({
-      status: "Success",
-      Message: "User Successfully Registered",
-    });
-  } catch (e) {
-    return res.json({ status: "Fail", Message: e.toString() });
-  }
+  let result = await CategoryListService();
+  return res.json(result);
 };

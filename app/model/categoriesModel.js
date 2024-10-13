@@ -12,4 +12,4 @@ const DataSchema = new mongoose.Schema(
 );
 
 const CategoryModel = mongoose.model("categories", DataSchema);
-module.exports = CategoryModel;
+export default CategoryModel;

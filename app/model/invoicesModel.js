@@ -20,4 +20,4 @@ const DataSchema = new mongoose.Schema(
 );
 
 const InvoiceModel = mongoose.model("invoices", DataSchema);
-module.exports = InvoiceModel;
+export default InvoiceModel;

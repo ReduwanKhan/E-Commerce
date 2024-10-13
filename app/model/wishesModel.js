@@ -12,4 +12,4 @@ const DataSchema = new mongoose.Schema(
 );
 
 const WishModel = mongoose.model("wishes", DataSchema);
-module.exports = WishModel;
+export default WishModel;
